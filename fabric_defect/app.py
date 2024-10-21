@@ -9,7 +9,7 @@ yolo_model = YOLO('pth')
 def load_image(image_data):
     return Image.open(io.BytesIO(image_data))
 
-@app.post("/detect-car/")
+@app.post("/detect-fabric/")
 async def detect_plant(file: UploadFile=File(...)):
     image_data=await file.read()
     image = load_image(image_data)
