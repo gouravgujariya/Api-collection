@@ -6,7 +6,7 @@ import google.generativeai as genai
 import tempfile
 
 # Configure Genai Key
-genai.configure(api_key="AIzaSyCkif2CSS7X4HJxyLMJS2M-ZHPa_NnR9d8")
+genai.configure(api_key="---9d8")
 
 # Function to Load Google Gemini Model and provide queries as response
 def get_gemini_response(message, prompt):
